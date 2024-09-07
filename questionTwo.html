@@ -1,0 +1,56 @@
+ 
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <title>Palm Tour</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+         <link rel="stylesheet" type="text/css" href="style.css">
+ 
+ 
+     </head>
+  
+ 
+     <body>
+ 
+        <div class="container">
+            <header>
+
+            </header>
+            <form>
+                    <div><img class="imageLocation" src="pin.png">Börse Hamburg</div>
+                    <p><span class="boldText">Question:</span></p>
+                    <div class="multipleChoice">
+                        <p>Inside the Börse Hamburg, you will find a room adorned with large oil paintings that depict historical events of the Hanseatic League. One particular painting stands out, showing a treaty being signed in 1669. What significant maritime document is this painting depicting?</p>
+                        <label for="hanseatic">The Treaty of the Hanseatic League</label>
+                        <input type="radio" name="answer" id="hanseatic" value="Hanseatic">
+                        <label for="versailles">The Treaty of Versailles</label>
+                        <input type="radio" name="answer" id="versailles" value="Versailles">
+                        <label for="westphalia">The Peace of Westphalia</label>
+                       <input type="radio" name="answer" id="westphalia" value="Westphalia">
+                    </div>
+                    <div id="errorMessage"></div>
+                    <button id="next" type="button">Check</button>
+
+                
+            </form>
+            <footer>
+
+            </footer>
+    
+        </div>
+       
+        
+ 
+     
+  
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+     </body>
+ </html>
+ 
+ 
+ 
+ 
